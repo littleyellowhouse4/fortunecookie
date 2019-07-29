@@ -1,0 +1,58 @@
+h1 {
+font-family:'Abel', sans-serif;
+display: flex;
+justify-content:center;
+color: #FFA564;
+background-color: #B5DEFF;
+font-size: 50px;
+div.angrytext {
+font-size:70px;
+font-weight:bold;
+color:#4794D3;
+width:300px;
+margin:90px auto;
+-webkit-animation: change-color 5s ease 0s infinite normal ;
+animation: change-color 5s ease 0s infinite normal ;
+}
+@-webkit-keyframes change-color {
+ 0%{
+    color:#B5DEFF;
+ }
+ 100%{
+    color:#B5DEFF;
+ }
+}
+@keyframes change-color {
+ 0%{
+    color:#B5DEFF;
+ }
+ 100%{
+    color:white;
+ }
+}
+
+}
+.fortune-text {
+font-size:30px;
+font-weight:bold;
+justify-content:center;
+color:#4794D3;
+width:300px;
+margin:90px auto;
+}
+
+button {
+background-color: #B5DEFF;
+border-color: #FFA564;
+border-width: medium;
+
+}
+.button{
+  display: flex;
+  justify-content:center;
+}
+body{
+background-color: #B5DEFF;
+}
+
+.fortune-text
